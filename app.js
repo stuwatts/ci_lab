@@ -8,9 +8,11 @@ function multiply(a,b) {
 
 function divide(a,b){
   if(a == 0 || b == 0){
-    return "Error cannot divide by 0";
+    throw "Error cannot divide by 0";
   }
-  return a / b;
+  else{
+    return a / b;
+  }
 }
 
 module.exports = { sum,multiply,divide };

@@ -12,6 +12,6 @@ test("divide two valid numbers", () => {
   expect(divide(10, 2)).toBe(5);
 });
 
-test("divide two invalid numbers",()=>{
-  expect(divide(10,0).toBe("Error cannot divide by 0"));
+test("divide two invalid numbers",()=> {
+  expect(divide(10,0).toThrow("Error cannot divide by 0"));
 });
