@@ -1,5 +1,3 @@
-const { multiply } = require("./app");
-
 const sum = require("./app").sum;
 
 test("add two numbers", () => {
